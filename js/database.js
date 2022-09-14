@@ -3,7 +3,7 @@
 const data = [
   {
     id: 1,
-    img: '../img/fob-cd-cover.jpg',
+    img: './img/fob-cd-cover.jpg',
     nameItem: 'From Under the Cork Tree',
     artist: 'Fall Out Boy',
     description:
@@ -15,7 +15,7 @@ const data = [
   },
   {
     id: 2,
-    img: '../img/fob-lp-cover.jpeg',
+    img: './img/fob-lp-cover.jpeg',
     nameItem: 'Take This To Your Grave',
     artist: 'Fall Out Boy',
     description:
@@ -27,7 +27,7 @@ const data = [
   },
   {
     id: 3,
-    img: '../img/fob-dvd-cover.jpg',
+    img: './img/fob-dvd-cover.jpg',
     nameItem: 'The Boys Of Zummer Tour',
     artist: 'Fall Out Boy',
     description:
@@ -39,7 +39,7 @@ const data = [
   },
   {
     id: 4,
-    img: '../img/mcr-cd-cover.jpg',
+    img: './img/mcr-cd-cover.jpg',
     nameItem: 'Three Cheers for Sweet Revenge',
     artist: 'MCR',
     description:
@@ -51,7 +51,7 @@ const data = [
   },
   {
     id: 5,
-    img: '../img/mcr-lp-cover.jpg',
+    img: './img/mcr-lp-cover.jpg',
     nameItem: 'Black Parade / Living With Ghosts',
     artist: 'MCR',
     description:
@@ -63,7 +63,7 @@ const data = [
   },
   {
     id: 6,
-    img: '../img/mcr-dvd-cover.png',
+    img: './img/mcr-dvd-cover.png',
     nameItem: 'The Black Parade is Dead',
     artist: 'MCR',
     description:
@@ -75,7 +75,7 @@ const data = [
   },
   {
     id: 7,
-    img: '../img/trja-cd-cover.jpg',
+    img: './img/trja-cd-cover.jpg',
     nameItem: "Don't You Fake It",
     artist: 'TRJA',
     description:
@@ -87,7 +87,7 @@ const data = [
   },
   {
     id: 8,
-    img: '../img/paramore-lp-cover.jpeg',
+    img: './img/paramore-lp-cover.jpeg',
     nameItem: 'All We Know Is Falling',
     artist: 'Paramore',
     description:
@@ -99,7 +99,7 @@ const data = [
   },
   {
     id: 9,
-    img: '../img/fresno-dvd-cover.jpg',
+    img: './img/fresno-dvd-cover.jpg',
     nameItem: 'Tour 15 Anos Ao Vivo',
     artist: 'Fresno',
     description:
