@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  background: #f8f8f8;
+  box-shadow: 0px 4px 40px -15px rgba(0, 0, 0, 0.25);
+}
+header nav ul {
+  display: flex;
+  gap: 10px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+main {
+  width: 65%;
+  margin-top: 58px;
+}
+.showcase {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  max-width: 29%;
+  max-height: 50vh;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 40px -20px rgb(0 0 0 / 25%);
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product .product-img {
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.product .product-main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0;
+}
+.product .product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.product .product-title {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.product .product-artist {
+  font-size: 20px;
+}
+.product .product-year {
+  font-size: 20px;
+}
+.product .product-description {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.product .product-category {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.product .product-price {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.product .product-button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+.cart-items {
+  display: block;
+  gap: 10px;
+}
